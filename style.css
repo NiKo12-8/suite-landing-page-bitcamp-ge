@@ -1,0 +1,514 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: grid;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  width: 375px;
+  margin: auto;
+}
+
+.headertext {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #172339;
+  margin-top: 32px;
+}
+
+.topbutton {
+  height: 48px;
+  width: 182px;
+  border-radius: 6px;
+  background-color: white;
+  margin-top: 25px;
+}
+
+.buttontext {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #172339;
+}
+
+section {
+  padding: 16px;
+  margin: auto;
+}
+
+.curve {
+  height: 19px;
+  width: 151x;
+  border-radius: 0px;
+  margin-top: 56px;
+  margin-left: 170px;
+}
+
+.firsttext {
+  width: 343px;
+  margin-top: 10px;
+}
+
+.first-part {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 44px;
+  color: #172339;
+}
+
+.second-part {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 44px;
+  color: #172339;
+}
+
+.description {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #49566d;
+  margin-top: 32px;
+}
+
+.midbutton {
+  height: 61px;
+  width: 256px;
+  border-radius: 6px;
+  background: #172339;
+  margin-top: 32px;
+}
+
+.midbuttontxt {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #faf8f6;
+}
+
+.headercontainer {
+  margin-top: 56px;
+}
+
+.aboutus {
+  margin-top: 56px;
+  margin-bottom: 250px;
+}
+
+.qty {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #172339;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.about {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #49566d;
+  margin-top: 1px;
+}
+
+.purple {
+  background-color: #172339;
+  border-radius: 15px;
+  margin-top: -250;
+  width: 375px;
+  background-image: url("assets/pattern-blur.svg");
+  background-repeat: no-repeat;
+  background-size: 70% auto;
+  background-position: top center;
+}
+
+.jeremy {
+  margin-top: -190px;
+  height: 402px;
+  width: 252px;
+  margin-left: 71px;
+}
+
+.curvesecond {
+  height: 40px;
+  width: 50px;
+  margin-top: 40px;
+  margin-left: 163px;
+}
+
+.part-one {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #faf8f6;
+}
+
+.jeremytitle {
+  text-align: center;
+  margin-top: 36px;
+}
+
+.part-two {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #faf8f6;
+}
+
+.purplep {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #f3ede7;
+  margin-top: 40px;
+  padding: 16px;
+}
+
+h2 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #faf8f6;
+  margin-top: 40px;
+}
+
+h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
+  padding: 0 92px 64px 92px;
+}
+
+footer {
+  background-color: #f3ede7;
+}
+
+.footertitle {
+  margin-top: 78px;
+  text-align: center;
+}
+
+.credit {
+  margin-top: 33px;
+  text-align: center;
+}
+
+.social {
+  margin-top: 33px;
+  margin-bottom: 80px;
+  display: flex;
+  gap: 28px;
+  margin-left: 129px;
+}
+
+.description {
+  width: 343px;
+}
+
+
+.jeremydesk{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* body {
+    width: 768px;
+  } */
+
+  .heroimg {
+    display: none;
+  }
+
+  header {
+    width: 689px;
+    margin-bottom: 40px;
+  }
+
+  section {
+    width: 689px;
+    /* display: block; */
+    background-image: url("assets/image-hero-portrait.png");
+    background-repeat: no-repeat;
+    background-size: 38% auto;
+    background-position: top right 15px;
+    padding: 0;
+  }
+
+  .firsttext {
+    width: 573px;
+  }
+
+  .first-part {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #172339;
+  }
+
+  .second-part {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    color: #172339;
+  }
+
+  .aboutus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 700px;
+    gap: 100px;
+  }
+
+  .all {
+    margin-bottom: 500px;
+  }
+
+  .jeremy {
+    margin-left: 200px;
+  }
+
+  .purple {
+    display: flex;
+    flex-direction: column;
+    width: 689px;
+    margin-left: 39px;
+    margin-top: -220px;
+    background-image: url("assets/pattern-blur.svg");
+    background-repeat: no-repeat;
+    background-size: 45% auto;
+    background-position: top -65px center;
+  }
+
+  .purplep {
+    width: 573px;
+    align-items: center;
+    margin-left: 58px;
+  }
+
+  footer {
+    width: 768px;
+  }
+
+  .curvesecond {
+    margin-left: 300px;
+  }
+
+  .curve {
+    height: 25px;
+    width: 231px;
+    margin-left: 220px;
+  }
+
+  .footercontainer {
+    margin-left: 140px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  .social,
+  .footertitle,
+  .credit {
+    margin: 0;
+  }
+  .jeremydesk{
+    display: none;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .middle {
+    display: flex;
+    flex-direction: row;
+  }
+
+  header {
+    width: 1110px;
+    padding: 0;
+  }
+
+  .firsttext {
+    width: 635px;
+  }
+
+  .first-part {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 78px;
+    color: #172339;
+  }
+
+  .second-part {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 78px;
+    color: #172339;
+  }
+
+  .description {
+    width: 350px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #49566d;
+  }
+
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .purple {
+    
+    width: 1109px;
+    margin-left: 169px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("assets/pattern-blur.svg");
+    background-repeat: no-repeat;
+    background-size: 45% auto;
+    background-position: bottom left;
+  }
+
+
+  .purpletext {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .purplep {
+ 
+width: 350px;
+text-align: left;
+
+
+  }
+
+  .jeremytitle {
+    margin-top: 90px;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 75px;
+  }
+h3 {
+  text-align: left;
+  margin-left: -15px;
+}
+  .one {
+    margin-top: 50px;
+  }
+
+  .two {
+    margin-top: -25px;
+  }
+
+  footer {
+    width: 1440px;
+  }
+
+  section {
+    width: 1110px;
+    /* display: block; */
+    background-image: url("assets/image-hero-portrait.png");
+    background-repeat: no-repeat;
+    background-size: 38% auto;
+    background-position: top right 220px;
+    padding: 0;
+  }
+
+  .footercontainer {
+    margin-left: 350px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+  }
+
+  .jeremy {
+    display: none;
+  }
+
+  .curvesecond {
+    height: 52px;
+width: 64px;
+margin-left: 20px;
+margin-top: 175px;
+
+
+
+  }
+
+  .jeremydesk {
+    display: block;
+    height: 600px;
+width: 375px;
+margin-left: 50px;
+margin-top: -45px;
+
+
+  }
+
+}
+
